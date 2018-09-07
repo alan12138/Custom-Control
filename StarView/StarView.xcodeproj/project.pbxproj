@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048AB3A021421B7B0025D917 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB39F21421B7B0025D917 /* AppDelegate.m */; };
+		048AB3A321421B7B0025D917 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3A221421B7B0025D917 /* ViewController.m */; };
+		048AB3A621421B7B0025D917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048AB3A421421B7B0025D917 /* Main.storyboard */; };
+		048AB3A821421B7E0025D917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048AB3A721421B7E0025D917 /* Assets.xcassets */; };
+		048AB3AB21421B7E0025D917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048AB3A921421B7E0025D917 /* LaunchScreen.storyboard */; };
+		048AB3AE21421B7E0025D917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3AD21421B7E0025D917 /* main.m */; };
+		048AB3B821421B7E0025D917 /* StarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3B721421B7E0025D917 /* StarViewTests.m */; };
+		048AB3C321421B7E0025D917 /* StarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3C221421B7E0025D917 /* StarViewUITests.m */; };
+		048AB3D221421B8B0025D917 /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3D121421B8B0025D917 /* StarView.m */; };
+		048AB3EE21421C260025D917 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 048AB3D421421C260025D917 /* LICENSE */; };
+		048AB3EF21421C260025D917 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3D721421C260025D917 /* MASCompositeConstraint.m */; };
+		048AB3F021421C260025D917 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3DA21421C260025D917 /* MASConstraint.m */; };
+		048AB3F121421C260025D917 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3DC21421C260025D917 /* MASConstraintMaker.m */; };
+		048AB3F221421C260025D917 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3DE21421C260025D917 /* MASLayoutConstraint.m */; };
+		048AB3F321421C260025D917 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3E221421C260025D917 /* MASViewAttribute.m */; };
+		048AB3F421421C260025D917 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3E421421C260025D917 /* MASViewConstraint.m */; };
+		048AB3F521421C260025D917 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3E621421C260025D917 /* NSArray+MASAdditions.m */; };
+		048AB3F621421C260025D917 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3E921421C260025D917 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		048AB3F721421C260025D917 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB3EB21421C260025D917 /* View+MASAdditions.m */; };
+		048AB3F821421C260025D917 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 048AB3ED21421C260025D917 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048AB3B421421B7E0025D917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048AB39321421B7B0025D917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048AB39A21421B7B0025D917;
+			remoteInfo = StarView;
+		};
+		048AB3BF21421B7E0025D917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048AB39321421B7B0025D917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048AB39A21421B7B0025D917;
+			remoteInfo = StarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048AB39B21421B7B0025D917 /* StarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AB39E21421B7B0025D917 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048AB39F21421B7B0025D917 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048AB3A121421B7B0025D917 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048AB3A221421B7B0025D917 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048AB3A521421B7B0025D917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048AB3A721421B7E0025D917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048AB3AA21421B7E0025D917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048AB3AC21421B7E0025D917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AB3AD21421B7E0025D917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048AB3B321421B7E0025D917 /* StarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AB3B721421B7E0025D917 /* StarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarViewTests.m; sourceTree = "<group>"; };
+		048AB3B921421B7E0025D917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AB3BE21421B7E0025D917 /* StarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AB3C221421B7E0025D917 /* StarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarViewUITests.m; sourceTree = "<group>"; };
+		048AB3C421421B7E0025D917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AB3D021421B8B0025D917 /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		048AB3D121421B8B0025D917 /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
+		048AB3D421421C260025D917 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		048AB3D621421C260025D917 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		048AB3D721421C260025D917 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		048AB3D821421C260025D917 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		048AB3D921421C260025D917 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		048AB3DA21421C260025D917 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		048AB3DB21421C260025D917 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		048AB3DC21421C260025D917 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		048AB3DD21421C260025D917 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		048AB3DE21421C260025D917 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		048AB3DF21421C260025D917 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		048AB3E021421C260025D917 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		048AB3E121421C260025D917 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		048AB3E221421C260025D917 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		048AB3E321421C260025D917 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		048AB3E421421C260025D917 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		048AB3E521421C260025D917 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		048AB3E621421C260025D917 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		048AB3E721421C260025D917 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		048AB3E821421C260025D917 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		048AB3E921421C260025D917 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		048AB3EA21421C260025D917 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		048AB3EB21421C260025D917 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		048AB3EC21421C260025D917 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		048AB3ED21421C260025D917 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048AB39821421B7B0025D917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB3B021421B7E0025D917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB3BB21421B7E0025D917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048AB39221421B7B0025D917 = {
+			isa = PBXGroup;
+			children = (
+				048AB39D21421B7B0025D917 /* StarView */,
+				048AB3B621421B7E0025D917 /* StarViewTests */,
+				048AB3C121421B7E0025D917 /* StarViewUITests */,
+				048AB39C21421B7B0025D917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048AB39C21421B7B0025D917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048AB39B21421B7B0025D917 /* StarView.app */,
+				048AB3B321421B7E0025D917 /* StarViewTests.xctest */,
+				048AB3BE21421B7E0025D917 /* StarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048AB39D21421B7B0025D917 /* StarView */ = {
+			isa = PBXGroup;
+			children = (
+				048AB3D321421C260025D917 /* Masonry */,
+				048AB3D021421B8B0025D917 /* StarView.h */,
+				048AB3D121421B8B0025D917 /* StarView.m */,
+				048AB39E21421B7B0025D917 /* AppDelegate.h */,
+				048AB39F21421B7B0025D917 /* AppDelegate.m */,
+				048AB3A121421B7B0025D917 /* ViewController.h */,
+				048AB3A221421B7B0025D917 /* ViewController.m */,
+				048AB3A421421B7B0025D917 /* Main.storyboard */,
+				048AB3A721421B7E0025D917 /* Assets.xcassets */,
+				048AB3A921421B7E0025D917 /* LaunchScreen.storyboard */,
+				048AB3AC21421B7E0025D917 /* Info.plist */,
+				048AB3AD21421B7E0025D917 /* main.m */,
+			);
+			path = StarView;
+			sourceTree = "<group>";
+		};
+		048AB3B621421B7E0025D917 /* StarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				048AB3B721421B7E0025D917 /* StarViewTests.m */,
+				048AB3B921421B7E0025D917 /* Info.plist */,
+			);
+			path = StarViewTests;
+			sourceTree = "<group>";
+		};
+		048AB3C121421B7E0025D917 /* StarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048AB3C221421B7E0025D917 /* StarViewUITests.m */,
+				048AB3C421421B7E0025D917 /* Info.plist */,
+			);
+			path = StarViewUITests;
+			sourceTree = "<group>";
+		};
+		048AB3D321421C260025D917 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				048AB3D421421C260025D917 /* LICENSE */,
+				048AB3D521421C260025D917 /* Masonry */,
+				048AB3ED21421C260025D917 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		048AB3D521421C260025D917 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				048AB3D621421C260025D917 /* MASCompositeConstraint.h */,
+				048AB3D721421C260025D917 /* MASCompositeConstraint.m */,
+				048AB3D821421C260025D917 /* MASConstraint+Private.h */,
+				048AB3D921421C260025D917 /* MASConstraint.h */,
+				048AB3DA21421C260025D917 /* MASConstraint.m */,
+				048AB3DB21421C260025D917 /* MASConstraintMaker.h */,
+				048AB3DC21421C260025D917 /* MASConstraintMaker.m */,
+				048AB3DD21421C260025D917 /* MASLayoutConstraint.h */,
+				048AB3DE21421C260025D917 /* MASLayoutConstraint.m */,
+				048AB3DF21421C260025D917 /* Masonry.h */,
+				048AB3E021421C260025D917 /* MASUtilities.h */,
+				048AB3E121421C260025D917 /* MASViewAttribute.h */,
+				048AB3E221421C260025D917 /* MASViewAttribute.m */,
+				048AB3E321421C260025D917 /* MASViewConstraint.h */,
+				048AB3E421421C260025D917 /* MASViewConstraint.m */,
+				048AB3E521421C260025D917 /* NSArray+MASAdditions.h */,
+				048AB3E621421C260025D917 /* NSArray+MASAdditions.m */,
+				048AB3E721421C260025D917 /* NSArray+MASShorthandAdditions.h */,
+				048AB3E821421C260025D917 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				048AB3E921421C260025D917 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				048AB3EA21421C260025D917 /* View+MASAdditions.h */,
+				048AB3EB21421C260025D917 /* View+MASAdditions.m */,
+				048AB3EC21421C260025D917 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048AB39A21421B7B0025D917 /* StarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AB3C721421B7E0025D917 /* Build configuration list for PBXNativeTarget "StarView" */;
+			buildPhases = (
+				048AB39721421B7B0025D917 /* Sources */,
+				048AB39821421B7B0025D917 /* Frameworks */,
+				048AB39921421B7B0025D917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarView;
+			productName = StarView;
+			productReference = 048AB39B21421B7B0025D917 /* StarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048AB3B221421B7E0025D917 /* StarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AB3CA21421B7E0025D917 /* Build configuration list for PBXNativeTarget "StarViewTests" */;
+			buildPhases = (
+				048AB3AF21421B7E0025D917 /* Sources */,
+				048AB3B021421B7E0025D917 /* Frameworks */,
+				048AB3B121421B7E0025D917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048AB3B521421B7E0025D917 /* PBXTargetDependency */,
+			);
+			name = StarViewTests;
+			productName = StarViewTests;
+			productReference = 048AB3B321421B7E0025D917 /* StarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048AB3BD21421B7E0025D917 /* StarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AB3CD21421B7E0025D917 /* Build configuration list for PBXNativeTarget "StarViewUITests" */;
+			buildPhases = (
+				048AB3BA21421B7E0025D917 /* Sources */,
+				048AB3BB21421B7E0025D917 /* Frameworks */,
+				048AB3BC21421B7E0025D917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048AB3C021421B7E0025D917 /* PBXTargetDependency */,
+			);
+			name = StarViewUITests;
+			productName = StarViewUITests;
+			productReference = 048AB3BE21421B7E0025D917 /* StarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048AB39321421B7B0025D917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					048AB39A21421B7B0025D917 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					048AB3B221421B7E0025D917 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 048AB39A21421B7B0025D917;
+					};
+					048AB3BD21421B7E0025D917 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 048AB39A21421B7B0025D917;
+					};
+				};
+			};
+			buildConfigurationList = 048AB39621421B7B0025D917 /* Build configuration list for PBXProject "StarView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048AB39221421B7B0025D917;
+			productRefGroup = 048AB39C21421B7B0025D917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048AB39A21421B7B0025D917 /* StarView */,
+				048AB3B221421B7E0025D917 /* StarViewTests */,
+				048AB3BD21421B7E0025D917 /* StarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048AB39921421B7B0025D917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB3AB21421B7E0025D917 /* LaunchScreen.storyboard in Resources */,
+				048AB3A821421B7E0025D917 /* Assets.xcassets in Resources */,
+				048AB3F821421C260025D917 /* README.md in Resources */,
+				048AB3EE21421C260025D917 /* LICENSE in Resources */,
+				048AB3A621421B7B0025D917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB3B121421B7E0025D917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB3BC21421B7E0025D917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048AB39721421B7B0025D917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB3F121421C260025D917 /* MASConstraintMaker.m in Sources */,
+				048AB3A321421B7B0025D917 /* ViewController.m in Sources */,
+				048AB3AE21421B7E0025D917 /* main.m in Sources */,
+				048AB3F021421C260025D917 /* MASConstraint.m in Sources */,
+				048AB3F221421C260025D917 /* MASLayoutConstraint.m in Sources */,
+				048AB3F521421C260025D917 /* NSArray+MASAdditions.m in Sources */,
+				048AB3F421421C260025D917 /* MASViewConstraint.m in Sources */,
+				048AB3F321421C260025D917 /* MASViewAttribute.m in Sources */,
+				048AB3F721421C260025D917 /* View+MASAdditions.m in Sources */,
+				048AB3D221421B8B0025D917 /* StarView.m in Sources */,
+				048AB3A021421B7B0025D917 /* AppDelegate.m in Sources */,
+				048AB3EF21421C260025D917 /* MASCompositeConstraint.m in Sources */,
+				048AB3F621421C260025D917 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB3AF21421B7E0025D917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB3B821421B7E0025D917 /* StarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB3BA21421B7E0025D917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB3C321421B7E0025D917 /* StarViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048AB3B521421B7E0025D917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048AB39A21421B7B0025D917 /* StarView */;
+			targetProxy = 048AB3B421421B7E0025D917 /* PBXContainerItemProxy */;
+		};
+		048AB3C021421B7E0025D917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048AB39A21421B7B0025D917 /* StarView */;
+			targetProxy = 048AB3BF21421B7E0025D917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048AB3A421421B7B0025D917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048AB3A521421B7B0025D917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048AB3A921421B7E0025D917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048AB3AA21421B7E0025D917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048AB3C521421B7E0025D917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048AB3C621421B7E0025D917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048AB3C821421B7E0025D917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alan.StarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048AB3C921421B7E0025D917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alan.StarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048AB3CB21421B7E0025D917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alan.StarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarView.app/StarView";
+			};
+			name = Debug;
+		};
+		048AB3CC21421B7E0025D917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alan.StarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarView.app/StarView";
+			};
+			name = Release;
+		};
+		048AB3CE21421B7E0025D917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alan.StarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarView;
+			};
+			name = Debug;
+		};
+		048AB3CF21421B7E0025D917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alan.StarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048AB39621421B7B0025D917 /* Build configuration list for PBXProject "StarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB3C521421B7E0025D917 /* Debug */,
+				048AB3C621421B7E0025D917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AB3C721421B7E0025D917 /* Build configuration list for PBXNativeTarget "StarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB3C821421B7E0025D917 /* Debug */,
+				048AB3C921421B7E0025D917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AB3CA21421B7E0025D917 /* Build configuration list for PBXNativeTarget "StarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB3CB21421B7E0025D917 /* Debug */,
+				048AB3CC21421B7E0025D917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AB3CD21421B7E0025D917 /* Build configuration list for PBXNativeTarget "StarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB3CE21421B7E0025D917 /* Debug */,
+				048AB3CF21421B7E0025D917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048AB39321421B7B0025D917 /* Project object */;
+}
