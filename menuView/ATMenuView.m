@@ -67,7 +67,9 @@
     self.maskView = maskView;
     
     UIView *menusView = [[UIView alloc] init];
-    menusView.frame = CGRectMake(17,17 + (iphoneX ? 88 : 64),96,30 * self.menus.count);
+    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
+    CGRect startRect = [self convertRect:self.bounds toView:window];
+    menusView.frame = CGRectMake(startRect.origin.x,startRect.origin.y,96,30 * self.menus.count);
     menusView.layer.borderWidth = 0.5;
     menusView.layer.borderColor = [UIColor colorWithRed:238/255.0 green:239/255.0 blue:240/255.0 alpha:1.0].CGColor;
     menusView.layer.backgroundColor = [UIColor colorWithRed:246/255.0 green:247/255.0 blue:248/255.0 alpha:1.0].CGColor;
